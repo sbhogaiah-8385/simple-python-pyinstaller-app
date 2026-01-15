@@ -1,10 +1,7 @@
 pipeline {
     agent any
     stages {
-      environment {
-        PATH = "C:/Users/somas/AppData/Local/Programs/Python/Python313;$PATH;C:/Users/somas/anaconda3/Scripts"
 
-      }
       stage('Build') {
 
           steps {
